@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+.fundo{
+    opacity: 80%;
+    height: 700px;
+    width: 100%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#clipes-video{
+    display: flex;
+    justify-content: center;
+   padding-bottom: 15px;
+}
+
+
+
+#caixa-cont-audio{
+    display: flex;
+
+}
+#caixa-audio{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#musica{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 1rem;
+  
+    height: 7rem;
+    width: 35rem;
+}
+#sobre-b{
+    padding-top: 15px;
+
+}
+#sobre-b :hover{
+    border-bottom: 3px solid rebeccapurple ;
+   width: 17rem;
+}
+.fav :hover{
+    border-bottom: 3px solid rgb(221, 22, 22);
+    width:20rem;
+}
+.clip :hover{
+    border-bottom: 3px solid gray;
+    width: 18rem;
+
+}
+span{
+    padding: 5px;
+}
+
+#caixa-audio img{
+    border-radius: 50%;
+}
+#caixa-audio{
+    padding-top: 15px;
+}
+
+#titulo-clipes{
+    padding-top: 50px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+   
+}
+.ops{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ops img{
+  margin-top: 5px ;
+}
+.pause1, .cor2,.cor1,.cor3, .cor4{
+    display: none;
+}
+
+.pause2, .pause3, .pause4{
+    display: none;
+}
+
+
+.barra-p1{ 
+    padding-top: 5px ;
+}
+/* .barra-p2{
+
+}
+.barra-p3{
+
+}
+.barra-p4{
+
+} */

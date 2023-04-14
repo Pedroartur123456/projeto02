@@ -1,0 +1,34 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-family: 'Mukta', sans-serif;
+    padding: 40px;
+}
+div{
+    display: flex;
+    padding: 20px;
+}
+.audios1-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.audios3-4{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.clipes1-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.clipes3-4{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

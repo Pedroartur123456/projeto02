@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 20;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 60%;
+    font-size: 30px;
+}
+
+.container-caixa{
+    max-width: 1200px;
+    margin: auto;
+    gap: 1rem;
+    display: grid;
+    grid-template-areas: 
+    'caixa1 caixa1'
+    'caixa2 caixa2'
+    'caixa3 caixa3'
+    'caixa4 caixa4';
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+/* add responsive media quaries */
+
+@media screen  and (max-width:2000px) {
+    .box{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .box{
+        width: 60%;   
+    }
+}
+
+
+
